@@ -39,4 +39,86 @@
         'set attacks with x - range y - range
         'End If
     End Sub
+    
+    'Function for showing the player's coordinate.
+    Public Function showPlayerCoordinate() As Boolean
+    
+        'According to the player's current coordinates
+        If playerx = 0 And playery = 0 Then
+
+            'Clear the whole grid
+            clearCoordinates()
+
+            'Make the player's current coordinate's picturebox show the player.
+            x0y0.Image = player.Image
+
+            'Show the town through the town's current coordinate picturebox.
+            showTown1Coordinate()
+
+        End If
+
+        If playerx = 0 And playery = 1 Then
+            clearCoordinates()
+            x0y1.Image = player.Image
+            showTown1Coordinate()
+        End If
+
+        If playerx = 0 And playery = 2 Then
+            clearCoordinates()
+            x0y2.Image = player.Image
+            showTown1Coordinate()
+        End If
+
+        If playerx = 1 And playery = 0 Then
+            clearCoordinates()
+            x1y0.Image = player.Image
+            showTown1Coordinate()
+        End If
+
+        If playerx = 1 And playery = 1 Then
+            clearCoordinates()
+            x1y1.Image = player.Image
+            showTown1Coordinate()
+        End If
+
+        If playerx = 1 And playery = 2 Then
+            clearCoordinates()
+            x1y2.Image = player.Image
+            showTown1Coordinate()
+        End If
+
+        If playerx = 2 And playery = 0 Then
+            clearCoordinates()
+            x2y0.Image = player.Image
+            showTown1Coordinate()
+        End If
+
+        If playerx = 2 And playery = 1 Then
+            clearCoordinates()
+            x2y1.Image = player.Image
+            showTown1Coordinate()
+        End If
+
+        If playerx = 2 And playery = 2 Then
+            clearCoordinates()
+            x2y2.Image = player.Image
+            showTown1Coordinate()
+        End If
+        Return 0
+    End Function 'End movement function
+    
+        'Function for clearing the whole fucking map.
+    Public Function clearCoordinates() As Boolean
+        x0y0.Image = clear.Image
+        x0y1.Image = clear.Image
+        x0y2.Image = clear.Image
+        x1y0.Image = clear.Image
+        x1y1.Image = clear.Image
+        x1y2.Image = clear.Image
+        x2y0.Image = clear.Image
+        x2y1.Image = clear.Image
+        x2y2.Image = clear.Image
+        Return 0
+    End Function
+    
 End Class
