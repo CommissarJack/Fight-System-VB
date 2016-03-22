@@ -22,6 +22,7 @@ Partial Class Arena
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Arena))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -202,7 +203,8 @@ Partial Class Arena
         Me.xn1yn6 = New System.Windows.Forms.PictureBox()
         Me.x1yn6 = New System.Windows.Forms.PictureBox()
         Me.x0yn6 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.clear = New System.Windows.Forms.PictureBox()
+        Me.player = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -383,6 +385,8 @@ Partial Class Arena
         CType(Me.xn1yn6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.x1yn6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.x0yn6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.clear, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.player, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -2002,21 +2006,32 @@ Partial Class Arena
         Me.x0yn6.TabIndex = 0
         Me.x0yn6.TabStop = False
         '
-        'Button1
+        'clear
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.clear.BackColor = System.Drawing.Color.Transparent
+        Me.clear.Location = New System.Drawing.Point(12, 52)
+        Me.clear.Name = "clear"
+        Me.clear.Size = New System.Drawing.Size(62, 50)
+        Me.clear.TabIndex = 2
+        Me.clear.TabStop = False
+        '
+        'player
+        '
+        Me.player.BackColor = System.Drawing.Color.Maroon
+        Me.player.Image = CType(resources.GetObject("player.Image"), System.Drawing.Image)
+        Me.player.Location = New System.Drawing.Point(12, 123)
+        Me.player.Name = "player"
+        Me.player.Size = New System.Drawing.Size(62, 50)
+        Me.player.TabIndex = 3
+        Me.player.TabStop = False
         '
         'Arena
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1284, 854)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.player)
+        Me.Controls.Add(Me.clear)
         Me.Controls.Add(Me.PictureBox31)
         Me.Controls.Add(Me.PictureBox35)
         Me.Controls.Add(Me.PictureBox34)
@@ -2379,6 +2394,8 @@ Partial Class Arena
         CType(Me.xn1yn6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.x1yn6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.x0yn6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.clear, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.player, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2562,5 +2579,6 @@ Partial Class Arena
     Friend WithEvents xn1yn6 As System.Windows.Forms.PictureBox
     Friend WithEvents x1yn6 As System.Windows.Forms.PictureBox
     Friend WithEvents x0yn6 As System.Windows.Forms.PictureBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents clear As System.Windows.Forms.PictureBox
+    Friend WithEvents player As System.Windows.Forms.PictureBox
 End Class

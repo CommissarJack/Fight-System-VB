@@ -17,3 +17,22 @@
 \\stcfs2\Student_Data\kessockj\My Documents\Class Work\Level 3 work\Side Projects\Fight System VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.DialogNurse.resources
 \\stcfs2\Student_Data\kessockj\My Documents\Class Work\Level 3 work\Side Projects\Fight System VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.Store.resources
 \\stcfs2\Student_Data\kessockj\My Documents\Class Work\Level 3 work\Side Projects\Fight System VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.Arena.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson Coliseum.exe
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson Coliseum.xml
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson Coliseum.pdb
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\bin\Debug\Crimson Coliseum.exe
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\bin\Debug\Crimson Coliseum.pdb
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\bin\Debug\Crimson Coliseum.xml
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\bin\Debug\af\Crimson Coliseum.resources.dll
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.Arena.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.Class_Selection.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.MainPage.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.DialogNurse.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.Warning.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.HomePage.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.Resources.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.Store.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.Story_And_Character_Name.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson_Coliseum.HomePage.af.resources
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\Crimson Coliseum.vbproj.GenerateResource.Cache
+\\stcfs2\Student_Data\dougalt\Desktop\GitHub\Fight-System-VB\Crimson Coliseum\Crimson Coliseum\obj\x86\Debug\af\Crimson Coliseum.resources.dll
