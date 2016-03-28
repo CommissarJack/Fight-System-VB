@@ -157,6 +157,35 @@
             xn6y1.Image = player.Image
         End If
 
+        If playerx = 1 And playery = 1 Then
+            clearCoordinates()
+            x1y1.Image = player.Image
+        End If
+
+        If playerx = 2 And playery = 1 Then
+            clearCoordinates()
+            x2y1.Image = player.Image
+        End If
+
+        If playerx = 3 And playery = 1 Then
+            clearCoordinates()
+            x3y1.Image = player.Image
+        End If
+
+        If playerx = 4 And playery = 1 Then
+            clearCoordinates()
+            x4y1.Image = player.Image
+        End If
+
+        If playerx = 5 And playery = 1 Then
+            clearCoordinates()
+            x5y1.Image = player.Image
+        End If
+
+        If playerx = 6 And playery = 1 Then
+            clearCoordinates()
+            x6y1.Image = player.Image
+        End If
 
         Return 0
     End Function 'End movement function
@@ -192,8 +221,21 @@
         x4y1.Image = clear.Image
         x5y1.Image = clear.Image
         x6y1.Image = clear.Image
-        x2y1.Image = clear.Image
-        x2y2.Image = clear.Image
+
+        xn1yn1.Image = clear.Image
+        xn2yn1.Image = clear.Image
+        xn3yn1.Image = clear.Image
+        xn4yn1.Image = clear.Image
+        xn5yn1.Image = clear.Image
+        xn6yn1.Image = clear.Image
+        x1yn1.Image = clear.Image
+        x2yn1.Image = clear.Image
+        x3yn1.Image = clear.Image
+        x4yn1.Image = clear.Image
+        x5yn1.Image = clear.Image
+        x6yn1.Image = clear.Image
+
+
         Return 0
     End Function
 
@@ -295,71 +337,71 @@
         playerx = -6 : playery = 0
         showPlayerCoordinate()
     End Sub
-    Private Sub x0y1_Click(sender As System.Object, e As System.EventArgs) Handles x0y0.Click
+    Private Sub x0y1_Click(sender As System.Object, e As System.EventArgs) Handles x0y1.Click
 
         playerx = 0 : playery = 1
 
         showPlayerCoordinate()
     End Sub
 
-    Private Sub x1y1_Click(sender As System.Object, e As System.EventArgs) Handles x1y0.Click
+    Private Sub x1y1_Click(sender As System.Object, e As System.EventArgs) Handles x1y1.Click
         'test shit to be removed later.
         playerx = 1 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub x2y1_Click(sender As System.Object, e As System.EventArgs) Handles x2y0.Click
+    Private Sub x2y1_Click(sender As System.Object, e As System.EventArgs) Handles x2y1.Click
         playerx = 2 : playery = 1
         showPlayerCoordinate()
     End Sub
 
 
-    Private Sub x3y1_Click(sender As System.Object, e As System.EventArgs) Handles x3y0.Click
+    Private Sub x3y1_Click(sender As System.Object, e As System.EventArgs) Handles x3y1.Click
         playerx = 3 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub x4y1_Click(sender As System.Object, e As System.EventArgs) Handles x4y0.Click
+    Private Sub x4y1_Click(sender As System.Object, e As System.EventArgs) Handles x4y1.Click
         playerx = 4 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub x5y1_Click(sender As System.Object, e As System.EventArgs) Handles x5y0.Click
+    Private Sub x5y1_Click(sender As System.Object, e As System.EventArgs) Handles x5y1.Click
         playerx = 5 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub x6y1_Click(sender As System.Object, e As System.EventArgs) Handles x6y0.Click
+    Private Sub x6y1_Click(sender As System.Object, e As System.EventArgs) Handles x6y1.Click
         playerx = 6 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub xn1y1_Click(sender As System.Object, e As System.EventArgs) Handles xn1y0.Click
+    Private Sub xn1y1_Click(sender As System.Object, e As System.EventArgs) Handles xn1y1.Click
         playerx = -1 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub xn2y1_Click(sender As System.Object, e As System.EventArgs) Handles xn2y0.Click
+    Private Sub xn2y1_Click(sender As System.Object, e As System.EventArgs) Handles xn2y1.Click
         playerx = -2 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub xn3y1_Click(sender As System.Object, e As System.EventArgs) Handles xn3y0.Click
+    Private Sub xn3y1_Click(sender As System.Object, e As System.EventArgs) Handles xn3y1.Click
         playerx = -3 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub xn4y1_Click(sender As System.Object, e As System.EventArgs) Handles xn4y0.Click
+    Private Sub xn4y1_Click(sender As System.Object, e As System.EventArgs) Handles xn4y1.Click
         playerx = -4 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub xn5y1_Click(sender As System.Object, e As System.EventArgs) Handles xn5y0.Click
+    Private Sub xn5y1_Click(sender As System.Object, e As System.EventArgs) Handles xn5y1.Click
         playerx = -5 : playery = 1
         showPlayerCoordinate()
     End Sub
 
-    Private Sub xn6y1_Click(sender As System.Object, e As System.EventArgs) Handles xn6y0.Click
+    Private Sub xn6y1_Click(sender As System.Object, e As System.EventArgs) Handles xn6y1.Click
         playerx = -6 : playery = 1
         showPlayerCoordinate()
     End Sub
