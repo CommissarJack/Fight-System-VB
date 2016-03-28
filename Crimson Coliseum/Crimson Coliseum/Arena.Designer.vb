@@ -22,6 +22,7 @@ Partial Class Arena
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Arena))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -205,6 +206,9 @@ Partial Class Arena
         Me.x0yn6 = New System.Windows.Forms.PictureBox()
         Me.clear = New System.Windows.Forms.PictureBox()
         Me.player = New System.Windows.Forms.PictureBox()
+        Me.cordX = New System.Windows.Forms.Label()
+        Me.cordY = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -2025,11 +2029,36 @@ Partial Class Arena
         Me.player.TabIndex = 3
         Me.player.TabStop = False
         '
+        'cordX
+        '
+        Me.cordX.AutoSize = True
+        Me.cordX.Location = New System.Drawing.Point(935, 9)
+        Me.cordX.Name = "cordX"
+        Me.cordX.Size = New System.Drawing.Size(39, 13)
+        Me.cordX.TabIndex = 4
+        Me.cordX.Text = "Label1"
+        '
+        'cordY
+        '
+        Me.cordY.AutoSize = True
+        Me.cordY.Location = New System.Drawing.Point(935, 36)
+        Me.cordY.Name = "cordY"
+        Me.cordY.Size = New System.Drawing.Size(39, 13)
+        Me.cordY.TabIndex = 5
+        Me.cordY.Text = "Label2"
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1
+        '
         'Arena
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1284, 854)
+        Me.Controls.Add(Me.cordY)
+        Me.Controls.Add(Me.cordX)
         Me.Controls.Add(Me.player)
         Me.Controls.Add(Me.clear)
         Me.Controls.Add(Me.PictureBox31)
@@ -2397,6 +2426,7 @@ Partial Class Arena
         CType(Me.clear, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.player, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
@@ -2581,4 +2611,7 @@ Partial Class Arena
     Friend WithEvents x0yn6 As System.Windows.Forms.PictureBox
     Friend WithEvents clear As System.Windows.Forms.PictureBox
     Friend WithEvents player As System.Windows.Forms.PictureBox
+    Friend WithEvents cordX As System.Windows.Forms.Label
+    Friend WithEvents cordY As System.Windows.Forms.Label
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 End Class

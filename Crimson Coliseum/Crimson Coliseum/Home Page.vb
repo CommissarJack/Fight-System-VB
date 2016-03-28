@@ -1,5 +1,7 @@
 ﻿Public Class HomePage
-
+    'Program done by Jacob Kessock
+    'Programming advice given by Chandler Davis, Tony Dougal, Luke Blankenhorn
+    'People who have helped with the origional program include Luke Blankenhorn, Brian Brill, Braeden Mackereth, AJ Ross
     Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
 
     End Sub
