@@ -77,9 +77,9 @@ Partial Class Arena
         Me.PictureBox51 = New System.Windows.Forms.PictureBox()
         Me.PictureBox52 = New System.Windows.Forms.PictureBox()
         Me.PictureBox53 = New System.Windows.Forms.PictureBox()
-        Me.x5y4 = New System.Windows.Forms.PictureBox()
+        Me.trump = New System.Windows.Forms.PictureBox()
         Me.PictureBox55 = New System.Windows.Forms.PictureBox()
-        Me.x4y5 = New System.Windows.Forms.PictureBox()
+        Me.wall = New System.Windows.Forms.PictureBox()
         Me.PictureBox57 = New System.Windows.Forms.PictureBox()
         Me.PictureBox58 = New System.Windows.Forms.PictureBox()
         Me.PictureBox59 = New System.Windows.Forms.PictureBox()
@@ -262,9 +262,9 @@ Partial Class Arena
         CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.x5y4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.trump, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.x4y5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.wall, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -867,14 +867,14 @@ Partial Class Arena
         Me.PictureBox53.TabIndex = 0
         Me.PictureBox53.TabStop = False
         '
-        'x5y4
+        'trump
         '
-        Me.x5y4.BackColor = System.Drawing.Color.NavajoWhite
-        Me.x5y4.Location = New System.Drawing.Point(832, 179)
-        Me.x5y4.Name = "x5y4"
-        Me.x5y4.Size = New System.Drawing.Size(62, 50)
-        Me.x5y4.TabIndex = 0
-        Me.x5y4.TabStop = False
+        Me.trump.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.trump.Location = New System.Drawing.Point(832, 179)
+        Me.trump.Name = "trump"
+        Me.trump.Size = New System.Drawing.Size(62, 50)
+        Me.trump.TabIndex = 0
+        Me.trump.TabStop = False
         '
         'PictureBox55
         '
@@ -885,14 +885,14 @@ Partial Class Arena
         Me.PictureBox55.TabIndex = 0
         Me.PictureBox55.TabStop = False
         '
-        'x4y5
+        'wall
         '
-        Me.x4y5.BackColor = System.Drawing.Color.NavajoWhite
-        Me.x4y5.Location = New System.Drawing.Point(764, 123)
-        Me.x4y5.Name = "x4y5"
-        Me.x4y5.Size = New System.Drawing.Size(62, 50)
-        Me.x4y5.TabIndex = 0
-        Me.x4y5.TabStop = False
+        Me.wall.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.wall.Location = New System.Drawing.Point(764, 123)
+        Me.wall.Name = "wall"
+        Me.wall.Size = New System.Drawing.Size(62, 50)
+        Me.wall.TabIndex = 0
+        Me.wall.TabStop = False
         '
         'PictureBox57
         '
@@ -2203,10 +2203,10 @@ Partial Class Arena
         Me.Controls.Add(Me.x5y1)
         Me.Controls.Add(Me.PictureBox57)
         Me.Controls.Add(Me.x5y2)
-        Me.Controls.Add(Me.x4y5)
+        Me.Controls.Add(Me.wall)
         Me.Controls.Add(Me.x5y3)
         Me.Controls.Add(Me.PictureBox55)
-        Me.Controls.Add(Me.x5y4)
+        Me.Controls.Add(Me.trump)
         Me.Controls.Add(Me.x6yn1)
         Me.Controls.Add(Me.PictureBox53)
         Me.Controls.Add(Me.x6y0)
@@ -2296,9 +2296,9 @@ Partial Class Arena
         CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.x5y4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.trump, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.x4y5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.wall, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2482,9 +2482,9 @@ Partial Class Arena
     Friend WithEvents PictureBox51 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox52 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox53 As System.Windows.Forms.PictureBox
-    Friend WithEvents x5y4 As System.Windows.Forms.PictureBox
+    Friend WithEvents trump As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox55 As System.Windows.Forms.PictureBox
-    Friend WithEvents x4y5 As System.Windows.Forms.PictureBox
+    Friend WithEvents wall As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox57 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox58 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox59 As System.Windows.Forms.PictureBox
