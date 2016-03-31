@@ -869,7 +869,7 @@ Partial Class Arena
         '
         'trump
         '
-        Me.trump.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.trump.BackColor = System.Drawing.Color.Black
         Me.trump.Location = New System.Drawing.Point(832, 179)
         Me.trump.Name = "trump"
         Me.trump.Size = New System.Drawing.Size(62, 50)
@@ -887,7 +887,7 @@ Partial Class Arena
         '
         'wall
         '
-        Me.wall.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.wall.BackColor = System.Drawing.Color.Black
         Me.wall.Location = New System.Drawing.Point(764, 123)
         Me.wall.Name = "wall"
         Me.wall.Size = New System.Drawing.Size(62, 50)

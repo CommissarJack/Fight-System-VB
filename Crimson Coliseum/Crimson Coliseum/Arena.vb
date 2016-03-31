@@ -404,6 +404,11 @@
             x4yn4.Image = player.Image
         End If
 
+        If playerx = 0 And playery = -4 Then
+            clearCoordinates()
+            x0yn4.Image = player.Image
+        End If
+
         If playerx = 0 And playery = -5 Then
             clearCoordinates()
             x0yn5.Image = player.Image
@@ -569,6 +574,107 @@
             clearCoordinates()
             xn5y3.Image = player.Image
         End If
+
+        If playerx = 0 And playery = 4 Then
+            clearCoordinates()
+            x0y4.Image = player.Image
+        End If
+
+
+        If playerx = 1 And playery = 4 Then
+            clearCoordinates()
+            x1y4.Image = player.Image
+        End If
+
+        If playerx = 2 And playery = 4 Then
+            clearCoordinates()
+            x2y4.Image = player.Image
+        End If
+
+        If playerx = 3 And playery = 4 Then
+            clearCoordinates()
+            x3y4.Image = player.Image
+        End If
+
+        If playerx = 4 And playery = 4 Then
+            clearCoordinates()
+            x4y4.Image = player.Image
+        End If
+
+        If playerx = -1 And playery = 4 Then
+            clearCoordinates()
+            xn1y4.Image = player.Image
+        End If
+
+        If playerx = -2 And playery = 4 Then
+            clearCoordinates()
+            xn2y4.Image = player.Image
+        End If
+
+        If playerx = -3 And playery = 4 Then
+            clearCoordinates()
+            xn3y4.Image = player.Image
+        End If
+
+        If playerx = -4 And playery = 4 Then
+            clearCoordinates()
+            xn4y4.Image = player.Image
+        End If
+
+        If playerx = 0 And playery = 5 Then
+            clearCoordinates()
+            x0y5.Image = player.Image
+        End If
+
+
+        If playerx = 1 And playery = 5 Then
+            clearCoordinates()
+            x1y5.Image = player.Image
+        End If
+
+        If playerx = 2 And playery = 5 Then
+            clearCoordinates()
+            x2y5.Image = player.Image
+        End If
+
+        If playerx = 3 And playery = 5 Then
+            clearCoordinates()
+            x3y5.Image = player.Image
+        End If
+
+
+        If playerx = -1 And playery = 5 Then
+            clearCoordinates()
+            xn1y5.Image = player.Image
+        End If
+
+        If playerx = -2 And playery = 5 Then
+            clearCoordinates()
+            xn2y5.Image = player.Image
+        End If
+
+        If playerx = -3 And playery = 5 Then
+            clearCoordinates()
+            xn3y5.Image = player.Image
+        End If
+
+        If playerx = 0 And playery = 6 Then
+            clearCoordinates()
+            x0y6.Image = player.Image
+        End If
+
+
+        If playerx = 1 And playery = 6 Then
+            clearCoordinates()
+            x1y6.Image = player.Image
+        End If
+
+        If playerx = -1 And playery = 6 Then
+            clearCoordinates()
+            xn1y6.Image = player.Image
+        End If
+
+
         Return 0
     End Function 'End movement function
 
@@ -679,6 +785,25 @@
         xn4y3.Image = clear.Image
         xn5y3.Image = clear.Image
         x0y3.Image = clear.Image
+        x1y4.Image = clear.Image
+        x2y4.Image = clear.Image
+        x3y4.Image = clear.Image
+        x4y4.Image = clear.Image
+        xn1y4.Image = clear.Image
+        xn2y4.Image = clear.Image
+        xn3y4.Image = clear.Image
+        xn4y4.Image = clear.Image
+        x0y4.Image = clear.Image
+        x1y5.Image = clear.Image
+        x2y5.Image = clear.Image
+        x3y5.Image = clear.Image
+        xn1y5.Image = clear.Image
+        xn2y5.Image = clear.Image
+        xn3y5.Image = clear.Image
+        x0y5.Image = clear.Image
+        x1y6.Image = clear.Image
+        xn1y6.Image = clear.Image
+        x0y6.Image = clear.Image
 
 
         Return 0
@@ -1256,6 +1381,119 @@
     Private Sub x0y3_Click(sender As System.Object, e As System.EventArgs) Handles x0y3.Click
         'test shit to be removed later.
         playerx = 0 : playery = 3
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub x1y4_Click(sender As System.Object, e As System.EventArgs) Handles x1y4.Click
+        'test shit to be removed later.
+        playerx = 1 : playery = 4
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub x2y4_Click(sender As System.Object, e As System.EventArgs) Handles x2y4.Click
+        playerx = 2 : playery = 4
+        showPlayerCoordinate()
+    End Sub
+
+
+    Private Sub x3y4_Click(sender As System.Object, e As System.EventArgs) Handles x3y4.Click
+        playerx = 3 : playery = 4
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub x4y4_Click(sender As System.Object, e As System.EventArgs) Handles x4y4.Click
+        playerx = 4 : playery = 4
+        showPlayerCoordinate()
+    End Sub
+
+
+    Private Sub xn1y4_Click(sender As System.Object, e As System.EventArgs) Handles xn1y4.Click
+        playerx = -1 : playery = 4
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub xn2y4_Click(sender As System.Object, e As System.EventArgs) Handles xn2y4.Click
+        playerx = -2 : playery = 4
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub xn3y4_Click(sender As System.Object, e As System.EventArgs) Handles xn3y4.Click
+        playerx = -3 : playery = 4
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub xn4y4_Click(sender As System.Object, e As System.EventArgs) Handles xn4y4.Click
+        playerx = -4 : playery = 4
+        showPlayerCoordinate()
+    End Sub
+
+
+    Private Sub x0y4_Click(sender As System.Object, e As System.EventArgs) Handles x0y4.Click
+        'test shit to be removed later.
+        playerx = 0 : playery = 4
+        showPlayerCoordinate()
+    End Sub
+
+
+    Private Sub x1y5_Click(sender As System.Object, e As System.EventArgs) Handles x1y5.Click
+        'test shit to be removed later.
+        playerx = 1 : playery = 5
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub x2y5_Click(sender As System.Object, e As System.EventArgs) Handles x2y5.Click
+        playerx = 2 : playery = 5
+        showPlayerCoordinate()
+    End Sub
+
+
+    Private Sub x3y5_Click(sender As System.Object, e As System.EventArgs) Handles x3y5.Click
+        playerx = 3 : playery = 5
+        showPlayerCoordinate()
+    End Sub
+
+
+
+    Private Sub xn1y5_Click(sender As System.Object, e As System.EventArgs) Handles xn1y5.Click
+        playerx = -1 : playery = 5
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub xn2y5_Click(sender As System.Object, e As System.EventArgs) Handles xn2y5.Click
+        playerx = -2 : playery = 5
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub xn3y5_Click(sender As System.Object, e As System.EventArgs) Handles xn3y5.Click
+        playerx = -3 : playery = 5
+        showPlayerCoordinate()
+    End Sub
+    Private Sub x0y5_Click(sender As System.Object, e As System.EventArgs) Handles x0y5.Click
+        'test shit to be removed later.
+        playerx = 0 : playery = 5
+        showPlayerCoordinate()
+    End Sub
+
+    Private Sub x1y6_Click(sender As System.Object, e As System.EventArgs) Handles x1y6.Click
+        'test shit to be removed later.
+        playerx = 1 : playery = 6
+        showPlayerCoordinate()
+    End Sub
+
+
+
+
+    Private Sub xn1y6_Click(sender As System.Object, e As System.EventArgs) Handles xn1y6.Click
+        playerx = -1 : playery = 6
+        showPlayerCoordinate()
+    End Sub
+
+
+
+
+    Private Sub x0y6_Click(sender As System.Object, e As System.EventArgs) Handles x0y6.Click
+        'test shit to be removed later.
+        playerx = 0 : playery = 6
         showPlayerCoordinate()
     End Sub
 End Class
