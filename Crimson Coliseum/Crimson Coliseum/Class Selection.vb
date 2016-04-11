@@ -1,10 +1,10 @@
 ﻿Public Class Class_Selection
-    Dim HP As Integer
-    Dim ATK As Integer
-    Dim DEF As Integer
-    Dim SPD As Integer
-    Dim AGL As Integer
-    Dim MNA As Integer
+    Public Shared HP As Integer
+    Public Shared ATK As Integer
+    Public Shared DEF As Integer
+    Public Shared SPD As Integer
+    Public Shared AGL As Integer
+    Public Shared MNA As Integer
     Private Sub Class_Selection_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
 
     End Sub

@@ -57,6 +57,7 @@ Partial Class Class_Selection
         '
         'JuggernautSelect
         '
+        Me.JuggernautSelect.Enabled = False
         Me.JuggernautSelect.Location = New System.Drawing.Point(12, 183)
         Me.JuggernautSelect.Name = "JuggernautSelect"
         Me.JuggernautSelect.Size = New System.Drawing.Size(157, 111)
@@ -66,6 +67,7 @@ Partial Class Class_Selection
         '
         'ArcherSelect
         '
+        Me.ArcherSelect.Enabled = False
         Me.ArcherSelect.Location = New System.Drawing.Point(175, 183)
         Me.ArcherSelect.Name = "ArcherSelect"
         Me.ArcherSelect.Size = New System.Drawing.Size(157, 111)
@@ -75,6 +77,7 @@ Partial Class Class_Selection
         '
         'MageSelect
         '
+        Me.MageSelect.Enabled = False
         Me.MageSelect.Location = New System.Drawing.Point(338, 183)
         Me.MageSelect.Name = "MageSelect"
         Me.MageSelect.Size = New System.Drawing.Size(157, 111)

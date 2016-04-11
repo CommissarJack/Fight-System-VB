@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Arena
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Arena
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Arena))
@@ -209,6 +209,7 @@ Partial Class Arena
         Me.cordX = New System.Windows.Forms.Label()
         Me.cordY = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.energylbl = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -2023,7 +2024,7 @@ Partial Class Arena
         '
         Me.player.BackColor = System.Drawing.Color.Maroon
         Me.player.Image = CType(resources.GetObject("player.Image"), System.Drawing.Image)
-        Me.player.Location = New System.Drawing.Point(12, 123)
+        Me.player.Location = New System.Drawing.Point(12, 108)
         Me.player.Name = "player"
         Me.player.Size = New System.Drawing.Size(62, 50)
         Me.player.TabIndex = 3
@@ -2052,11 +2053,21 @@ Partial Class Arena
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1
         '
+        'energylbl
+        '
+        Me.energylbl.AutoSize = True
+        Me.energylbl.Location = New System.Drawing.Point(935, 65)
+        Me.energylbl.Name = "energylbl"
+        Me.energylbl.Size = New System.Drawing.Size(39, 13)
+        Me.energylbl.TabIndex = 6
+        Me.energylbl.Text = "Label1"
+        '
         'Arena
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1284, 854)
+        Me.ClientSize = New System.Drawing.Size(1039, 854)
+        Me.Controls.Add(Me.energylbl)
         Me.Controls.Add(Me.cordY)
         Me.Controls.Add(Me.cordX)
         Me.Controls.Add(Me.player)
@@ -2614,4 +2625,5 @@ Partial Class Arena
     Friend WithEvents cordX As System.Windows.Forms.Label
     Friend WithEvents cordY As System.Windows.Forms.Label
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents energylbl As Label
 End Class
